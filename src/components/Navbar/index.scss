@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins/_breakpoints";
+@import "~bootstrap/scss/utilities/_flex";
+
+.navbar {
+  @extend .justify-content-start;
+}
+
+.navbar__logo {
+  max-width: 110px;
+}
+
+
+.navbar-toggler {
+  padding: 0;
+  margin-right: 10px;
+  border: none;
+}

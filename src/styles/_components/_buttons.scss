@@ -1,0 +1,8 @@
+/* BUTTONS */
+
+.btn {
+  @extend .rounded-0;
+  &-secondary {
+    background-color: $black;
+  }
+}
